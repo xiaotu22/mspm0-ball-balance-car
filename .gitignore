@@ -1,0 +1,41 @@
+# ---- Keil 编译产物 ----
+firmware/mdk/Objects/
+firmware/mdk/Listings/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.sct
+*.dep
+*.htm
+*.lnp
+*.build_log.htm
+JLinkLog.txt
+JLinkSettings.ini
+
+# ---- 视频文件（太大，放 B 站 / 网盘，不进仓库）----
+*.mp4
+*.mov
+*.avi
+*.mkv
+h题视频/
+
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+
+# ---- 本地数据与归档 ----
+测试数据/
+_archive/
+*.csv
+*.log
+!docs/*.md
